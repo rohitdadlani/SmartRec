@@ -1,0 +1,25 @@
+.events-subnav {
+    background: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
+
+.events-subnav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events-subnav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.events-subnav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.events-subnav ul li a:hover {
+    color: #ff4d4d;
+}

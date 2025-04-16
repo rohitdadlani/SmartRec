@@ -1,0 +1,116 @@
+/* Ensure full-width layout */
+.events-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+/* Sub-navigation styling */
+.events-subnav {
+    background: #e3e7ff; /* Soft blue */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid #d1d9ff;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Events grid layout */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Event card styling */
+.event-card {
+    background: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Smaller card style for Other Events */
+.event-card.small {
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Event Image */
+.event-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Event Titles */
+.event-card h3, .event-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Event Descriptions */
+.event-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* More Info button */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.read-more:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+/* Explore More Button */
+.explore-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-more {
+    padding: 12px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-more:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}

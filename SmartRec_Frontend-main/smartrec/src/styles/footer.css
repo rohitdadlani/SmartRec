@@ -1,0 +1,24 @@
+.footer {
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between links */
+}
+
+.footer-links a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

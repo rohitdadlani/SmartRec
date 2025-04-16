@@ -1,0 +1,41 @@
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.welcome-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: #f8f8f8;
+    padding: 50px; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    width: 550px;  /* Increased width */
+    height: auto;  /* Allow height to adjust */
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 15px 25px; /* Increased button size */
+    font-size: 18px; /* Increased font size */
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, #4a90e2, #ff6ec4);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.07);
+}
