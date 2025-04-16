@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = 'YOUR_TICKETMASTER_API_KEY'
+API_KEY = 'rzjKcwMPVei76tiMc2RH6a5MHGXD4YEn'
 BASE_URL = 'https://app.ticketmaster.com/discovery/v2/events.json'
 
 def fetch_events_by_city(city):

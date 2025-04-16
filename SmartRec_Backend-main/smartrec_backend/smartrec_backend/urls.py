@@ -23,4 +23,5 @@ urlpatterns = [
     path('api/', include('news.urls')),
     path('api/users/', include('users.urls')),
     path('api/', include('events.urls')),
+    
 ]
